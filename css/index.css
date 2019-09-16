@@ -24,7 +24,46 @@ header, section, footer, aside, nav, main, article, figure {
 .header::after{
     content: '';
     display: block;
-    height: 1px;
+    height: 0.1rem;
     width: 100%;
     background-color: black;
+    margin-bottom: 2rem
+}
+/* nav */
+.nav::after{
+    content: '';
+    display: block;
+    height: 0.1rem;
+    width: 100%;
+    background-color: black;
+    margin-top: 2rem
+}
+.nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+}
+.nav ul li a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #847474;
+    font-weight: bold;
+
+}
+.nav ul li a:hover::after{
+    content: '';
+    display: block;
+    height: 0.5rem;
+    width: 100%;
+    background-color: red;
+    transform: translateY(0.6rem)
+}
+.nav ul li:nth-child(1) a::after{
+    content: '';
+    display: block;
+    height: 0.5rem;
+    width: 100%;
+    background-color: red;
+    transform: translateY(0.6rem)
 }
