@@ -67,3 +67,11 @@ header, section, footer, aside, nav, main, article, figure {
     background-color: red;
     transform: translateY(0.6rem)
 }
+/* carousel */
+.carousel{
+    margin-top: 1.5rem;
+}
+.carousel img{
+    width: 100%;
+    height: auto;
+}
