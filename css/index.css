@@ -80,9 +80,32 @@ header, section, footer, aside, nav, main, article, figure {
     margin-top: 2.5rem;
     text-align: center;
 }
-.intro__h2{
+.h2{
     font-size: 2.9rem
 }
 .intro__p{
     font-size: 1.8rem
+}
+/* handbill */
+.handbill{
+    margin-top: 12rem;
+    text-align: center
+}
+.handbill__content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 85%;
+    margin: 0px auto;
+    margin-top: 1.5rem;
+    text-align: center
+}
+.handbill__items h3{
+    color: red;
+    margin-bottom: 0.8rem;
+    font-size: 1.7rem;
+    margin-top: 0.5rem
+}
+.handbill__items p{
+    font-size: 1.6rem
 }
