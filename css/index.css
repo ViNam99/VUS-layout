@@ -75,3 +75,14 @@ header, section, footer, aside, nav, main, article, figure {
     width: 100%;
     height: auto;
 }
+/* intro */
+.intro{
+    margin-top: 2.5rem;
+    text-align: center;
+}
+.intro__h2{
+    font-size: 2.9rem
+}
+.intro__p{
+    font-size: 1.8rem
+}
