@@ -1,0 +1,30 @@
+/* global */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: inherit;
+    font-size: 10px;
+}
+header, section, footer, aside, nav, main, article, figure {
+    display: block;
+}
+/* header */
+.header__img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+}
+.header__img img {
+    width: 20%
+}
+
+.header::after{
+    content: '';
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color: black;
+}
