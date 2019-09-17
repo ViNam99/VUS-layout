@@ -95,7 +95,7 @@ header, section, footer, aside, nav, main, article, figure {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 85%;
+    width: 80%;
     margin: 0px auto;
     margin-top: 1.5rem;
     text-align: center
@@ -109,3 +109,38 @@ header, section, footer, aside, nav, main, article, figure {
 .handbill__items p{
     font-size: 1.6rem
 }
+/* event */
+.event{
+    text-align: center;
+    margin-top: 12rem;
+}
+.event__content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin: 0px auto;
+    color: white;
+}
+.event__items , .event__left{
+    position: relative;
+}
+.event__content p{
+    font-size: 1.6rem
+}
+.event__bgcontent{
+    width: 100%;
+    height: auto;
+    background-color:rgba(0, 0, 0, 0.8);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    
+}
+.event__right{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 2rem
+}
+
+
